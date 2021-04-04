@@ -1,9 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
-<main>
-  <h1>
-    One Price Games
-  </h1>
+<main
+  class="styles__Wrapper-sc-1cs6c8-0 hhNnV"
+>
+  <div
+    class="styles__ShadowSquare-sc-1cs6c8-1 jaEfLg"
+  >
+    <img
+      alt="logo, desenho de um crânio com chapéu de palha e dois ossos cruzados, como numa  bandeira pirata"
+      class="styles__Logo-sc-1cs6c8-2 cJFbzc"
+      src="/img/jollyRoger.png"
+    />
+    <h1
+      class="styles__Title-sc-1cs6c8-3 gwUvIW"
+    >
+      One Price Games
+    </h1>
+    <h2
+      class="styles__Description-sc-1cs6c8-4 bPhaTJ"
+    >
+      A boilerplate for a website using NextJS + Typescript + Styled Components!
+    </h2>
+    <img
+      alt="logo do desenho one piece, uma caveira de pirata com um chapéu de palha e o nome   one piece ao lado"
+      class="styles__Illustration-sc-1cs6c8-5 la-dvsb"
+      src="/img/onepiecelogo.png"
+    />
+  </div>
 </main>
 `
