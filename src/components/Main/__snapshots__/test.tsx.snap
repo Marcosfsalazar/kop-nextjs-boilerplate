@@ -1,30 +1,103 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  background-color: #c8472c;
+  background-image: linear-gradient(45deg,#c8472c 26%,#0b3075 86%);
+  color: #fefefe;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.c1 {
+  max-width: min(60rem,100%);
+  box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 2rem;
+  border-radius: 0.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1:hover {
+  box-shadow: 1rem 1rem 2rem 0 black;
+}
+
+.c2 {
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+
+.c3 {
+  text-shadow: 2px 2px #000000;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.c4 {
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px #000000;
+}
+
+.c5 {
+  width: min(20rem,100%);
+}
+
 <main
-  class="styles__Wrapper-sc-1cs6c8-0 hhNnV"
+  class="c0"
 >
   <div
-    class="styles__ShadowSquare-sc-1cs6c8-1 jaEfLg"
+    class="c1"
   >
     <img
       alt="logo, desenho de um crânio com chapéu de palha e dois ossos cruzados, como numa  bandeira pirata"
-      class="styles__Logo-sc-1cs6c8-2 cJFbzc"
+      class="c2"
       src="/img/jollyRoger.png"
     />
     <h1
-      class="styles__Title-sc-1cs6c8-3 gwUvIW"
+      class="c3"
     >
       One Price Games
     </h1>
     <h2
-      class="styles__Description-sc-1cs6c8-4 bPhaTJ"
+      class="c4"
     >
       A boilerplate for a website using NextJS + Typescript + Styled Components!
     </h2>
     <img
       alt="logo do desenho one piece, uma caveira de pirata com um chapéu de palha e o nome   one piece ao lado"
-      class="styles__Illustration-sc-1cs6c8-5 la-dvsb"
+      class="c5"
       src="/img/onepiecelogo.png"
     />
   </div>
